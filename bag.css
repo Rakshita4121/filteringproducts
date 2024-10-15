@@ -1,0 +1,33 @@
+.bag-items-container {
+    display: inline-block;
+    width: 50%;
+    padding-right: 20px;
+    border-right: 1px solid #eaeaec;
+    padding-top: 32px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+    padding-left: 50px;
+  }
+.bag-item-container {
+    display: grid;
+    grid-template-columns: auto auto 10px;
+}
+.item-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.price-container{
+    font-size: 1.5em;
+}
+img{
+    height: 10em;
+    width: 10em;
+}
+.bag-summary{
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+    top: 1em;
+    right: 5em;
+}
